@@ -1,0 +1,22 @@
+/* Text Box Module */
+.text-box {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+    margin: 50px auto 0 auto;
+    width: 100%;
+    letter-spacing: 0.06em;
+
+}
+.text-box > h1 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.text-box > p {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+
+}
