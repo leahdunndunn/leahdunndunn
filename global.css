@@ -14,16 +14,71 @@ body {
 }
 /* DISCOGRAPHY CONTAINER */
 .disc-container {
-    margin: 150px auto 100px 5vw;
+    margin: 100px auto 100px 70px;
     display: grid;
+    position: relative;
     justify-content: left;
     grid-template-columns: 280px 490px;
 }
+/* SOCIAL MEDIAS */
+.linktree {
+    position: absolute;
+    width: 220px;
+    height: auto;
+    float: right;
+    top: 430px;
+    right: 60px;
+    border: 2px solid white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.06em;
+    color: white;
+    list-style: none;
+}
+/* VIDEO GALLERY */
+.video-container {
+    margin: 170px auto 500px 40px;
+    position:relative;
+    width: 680px;
+}
+.video {
+    position:absolute;
+    margin: 0 auto 0 auto;
+    width: 600px; /* adjusts actual size */
+    height: 337.5px; /* ^^ */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+#button-left {
+    position:absolute;
+    left: 0;
+    top: 130px;
+    width: 30px;
+    height: 50px;
+    border: 0;
+    font-size: 50px;
+    background: none;
+    color: white;
+}
+#button-right {
+    position: absolute;
+    right: 0;
+    top: 130px;
+    width: 30px;
+    height: 50px;
+    border: 0;
+    font-size: 50px;
+    background: none;
+    color: white;
+}
+
+/* GRAPHICS */
 #suit {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 12px;
+    width: 350px;
+    left: 70px;
     top: 302px;
     mix-blend-mode: darken;
 }
@@ -32,9 +87,14 @@ body {
     width: 280px;
     height: auto;
 }
+#calender {
+    padding-top: 110px;
+    width: 280px;
+    height: auto;
+}
 #castle {
     position: absolute;
-    width: 400px;
+    width: 350px;
     height: auto;
     float: right;
     right: 50px;

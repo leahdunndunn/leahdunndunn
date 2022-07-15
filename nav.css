@@ -1,8 +1,8 @@
-/* Nav Bar */
+/* NAVIGATION */
 .nav {
   display: block;
   list-style-type: none;
-  margin: 25px auto 0 auto;
+  margin: 25px auto 0 30px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   letter-spacing: 0.06em;

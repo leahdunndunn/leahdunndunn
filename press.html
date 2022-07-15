@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="global.css">
+    </head>
+    <body>
+        <!--VIDEO GALLERY-->
+        <div class="video-container">
+            <iframe class="video" src="https://www.youtube.com/embed/h3bK9S0suQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/jzmdKAQL5KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <button id="button-left" onclick="plusDivs(-1)">&#8249;</button>
+            <button id="button-right" onclick="plusDivs(1)">&#8250;</button>
+        </div>
+        <!--JS-->
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+    
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+    
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("video");
+                if (n > x.length) {slideIndex = 1} 
+                if (n < 1) {slideIndex = x.length} ;
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                }
+                x[slideIndex-1].style.display = "block"; 
+            }
+        </script>
+        <!--VIDEO GALLERY ENDS-->
+    </body>
+</html>
