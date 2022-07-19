@@ -63,7 +63,7 @@ body {
 }
 /* VIDEO GALLERY */
 .video-container {
-    margin: 170px 0 100px 0;
+    margin: 150px 0 100px 0;
     position:relative;
     width: 680px;
 }
@@ -74,7 +74,7 @@ body {
   }
   /* IMAGE GALLERY */
   .image-container {
-    margin: 200px auto 0 auto;
+    margin: 75px auto 0 auto;
     position:relative;
     width: 850px;
     height: 400px;
@@ -131,14 +131,9 @@ body {
     top: 302px;
     mix-blend-mode: darken;
 }
-#wetsuit {
+.cover {
     padding-top: 110px;
     width: 100%;
-    height: auto;
-}
-#calender {
-    padding-top: 110px;
-    width: 280px;
     height: auto;
 }
 #castle {
