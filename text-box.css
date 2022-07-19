@@ -10,13 +10,15 @@
 }
 .text-box > h1 {
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
+    letter-spacing: 0.06em;
 
 }
 .text-box > p {
-    font-size: 17px;
-    font-weight: 400;
+    font-weight:400;
+    font-size: 15px;
     text-align: justify;
+    letter-spacing: 0.06em;
 
 }

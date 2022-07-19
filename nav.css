@@ -2,7 +2,7 @@
 .nav {
   display: block;
   list-style-type: none;
-  margin: 25px auto 0 30px;
+  margin: 25px auto 0 -50px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   letter-spacing: 0.06em;
