@@ -1,6 +1,5 @@
 /* NAVIGATION */
 .nav {
-  display: block;
   list-style-type: none;
   margin: 25px auto 0 -50px;
   font-family: 'Inter', sans-serif;
@@ -8,7 +7,6 @@
   letter-spacing: 0.06em;
 }
 #logo {
-  float: left;
   font-family: 'Kalam', cursive;
   font-size: 75px;
   font-weight: bold;
@@ -17,11 +15,10 @@
 #logo a {
   text-decoration-line: none;
 }
-.nav > li {
-  float:inline-start;
-}
-
 li a {
   padding: 13px;
   color: white;
+}
+.nav li {
+  display: inline;
 }
