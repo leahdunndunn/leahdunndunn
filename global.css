@@ -48,18 +48,18 @@ body {
 }
 /* SOCIAL MEDIAS */
 .linktree {
-    position: absolute;
-    width: 220px;
+    position: relative;
+    width: 20px;
     height: auto;
     float: right;
-    top: 430px;
+    top: 200px;
     right: 0px;
-    border: 2px solid white;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 0.06em;
-    color: white;
     list-style: none;
+}
+.linktree li {
+    margin-top: 20px;
+    height: 22.5;
+    width: 28.5;
 }
 /* VIDEO GALLERY */
 .video-container {
@@ -142,6 +142,6 @@ body {
     height: auto;
     float: right;
     right: -15px;
-    top: 80px;
+    top: 30px;
     mix-blend-mode: darken;
 }

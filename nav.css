@@ -15,7 +15,7 @@
 #logo a {
   text-decoration-line: none;
 }
-li a {
+.nav li a {
   padding: 13px;
   color: white;
 }
