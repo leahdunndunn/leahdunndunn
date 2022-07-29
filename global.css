@@ -74,7 +74,7 @@ body {
   }
   /* IMAGE GALLERY */
   .image-container {
-    margin: 75px auto 0 auto;
+    margin: 125px auto 0 auto;
     position:relative;
     width: 850px;
     height: 400px;
@@ -121,6 +121,22 @@ body {
     font-size: 15px;
     text-align: center;
     letter-spacing: 0.06em;
+}
+/* FOOTER */
+span {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    float: right;
+}
+span a {
+    text-decoration: none;
+    color: white;
+}
+span a:hover {
+    color: rgb(255, 110, 110);
 }
 
 /* GRAPHICS */
