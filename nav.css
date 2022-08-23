@@ -22,3 +22,19 @@
 .nav li {
   display: inline;
 }
+@media screen and (max-width: 700px) {
+  .nav li {display: none;}
+  #logo {
+    display: inline;
+    font-size: 53px;
+    margin-left: 15px;
+  }
+  #hamburger {
+    visibility: visible;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    top: 0;
+}
+
+}

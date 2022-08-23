@@ -53,7 +53,7 @@ body {
     height: auto;
     float: right;
     top: 200px;
-    right: 0px;
+    right: 23px;
     list-style: none;
 }
 .linktree li {
@@ -122,6 +122,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
+#hamburger {visibility: hidden; font-size:0; padding-top:0;}
 /* FOOTER */
 span {
     color: white;
@@ -130,6 +131,7 @@ span {
     font-size: 15px;
     letter-spacing: 0.06em;
     float: right;
+    text-align: right;
 }
 span a {
     text-decoration: none;
@@ -160,4 +162,25 @@ span a:hover {
     right: -15px;
     top: 30px;
     mix-blend-mode: darken;
+}
+@media screen and (max-width: 700px) {
+    #castle {display:none;}
+    .disc-container {
+        display: block;
+        margin: 100px auto 0 auto;
+    }
+    .disc-container img {
+        display: block;
+        margin: 100px auto 0 auto;
+    }
+    .disc-container p {
+        margin: 100px auto 0 auto;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .linktree {
+        top: 100px;
+        right: 33px;
+    }
 }
