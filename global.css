@@ -177,6 +177,7 @@ span a:hover {
         margin: 100px auto 0 auto;
         width: 80%;
     }
+    body {width:fit-content}
 }
 @media screen and (max-width: 1000px) {
     .linktree {
