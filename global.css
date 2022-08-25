@@ -173,6 +173,7 @@ span a:hover {
         margin: 100px auto 0 auto;
     }
     .linktree {
+        z-index: 10;
         position: absolute;
         top: 150px;
         margin-right: 47px;
