@@ -26,7 +26,6 @@
     .text-box p {
         margin: -220px auto 120px auto;
         width: 80%;
-        letter-spacing: 0.04em;
-        font-size: 16px;
+        letter-spacing: 0.03em;
     }
 }
