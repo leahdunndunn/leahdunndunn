@@ -33,10 +33,18 @@
     margin-left: 20px;
   }
   #hamburger {
+    display:inline;
+    float: right;
+    margin: -60px 7.5% 0 10px;
     visibility: visible;
     color: white;
-    font-size: 20px;
+    font-size: 32px;
     cursor: pointer;
 }
 
+}
+@media screen and (max-width: 390px) {
+  #logo {
+    font-size: 40px;
+  }
 }

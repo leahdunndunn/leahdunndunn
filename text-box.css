@@ -29,3 +29,10 @@
         letter-spacing: 0.03em;
     }
 }
+@media screen and (max-width: 390px) {
+    .text-box p {
+        font-size: 13px;
+        letter-spacing: 0;
+        margin: -190px auto 120px auto;
+    }
+  }
