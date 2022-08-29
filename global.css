@@ -163,6 +163,7 @@ span a:hover {
     top: 30px;
     mix-blend-mode: darken;
 }
+#myNav {display:none;}
 
 @media screen and (max-width: 945px) {
     .disc-container p {
@@ -176,6 +177,7 @@ span a:hover {
 }
 @media screen and (max-width: 700px) {
     #castle {display:none;}
+    #myNav {display:block;}
     .disc-container {
         display:block;
     }
