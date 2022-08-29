@@ -1,6 +1,6 @@
 /* TEXTBOX */
 .text-box {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
     padding-top: 50px;
     margin: 50px auto 0 auto;
@@ -16,7 +16,7 @@
 
 }
 .text-box > p {
-    font-weight:400;
+    font-weight:500;
     font-size: 15px;
     text-align: justify;
     letter-spacing: 0.06em;
