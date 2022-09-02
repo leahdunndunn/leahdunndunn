@@ -46,6 +46,32 @@ body {
     justify-content: left;
     grid-template-columns: 280px 610px;
 }
+.disc-container h1 {
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+}
+.disc-container p {
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.06em;
+}
+/* INFO CONTAINER */
+.info-container {
+    margin: 100px auto 100px 0;
+    display: grid;
+    position: relative;
+    justify-content: left;
+    grid-template-columns: 280px 610px;
+}
 /* SOCIAL MEDIAS */
 .linktree {
     position: relative;
@@ -150,7 +176,6 @@ span a:hover {
     mix-blend-mode: darken;
 }
 .cover {
-    padding-top: 110px;
     width: 100%;
     height: auto;
 }
@@ -166,26 +191,46 @@ span a:hover {
 #myNav {display:none;}
 
 @media screen and (max-width: 945px) {
-    .disc-container p {
+    .info-container p {
         width: 500px;
     }
 }
 @media screen and (max-width: 825px) {
-    .disc-container p {
+    .info-container p {
         width: 400px;
     }
 }
 @media screen and (max-width: 700px) {
     #castle {display:none;}
     #myNav {display:block;}
-    .disc-container {
+    .info-container {
         display:block;
+    }
+    .disc-container {
+        margin: 100px auto 100px auto;
+        display: block;
+        position: relative;
+        justify-content: left;
+    }
+    .disc-container h1 {
+        margin: 10px auto 0 auto;
+        color: rgb(255, 255, 255);
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        font-size: 14px;
+    }
+    .disc-container p {
+        display: none;
     }
     .cover {
         padding-top: 0;
         display: block;
-        width: 55%;
+        width: 50%;
         margin: -50px auto 0 auto;
+    }
+    .listen-button {
+        display: block;
+        margin: 25px auto 0 auto;
     }
     #infoimage {
         display: block;
