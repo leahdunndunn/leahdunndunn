@@ -18,10 +18,10 @@ body {
 /* ARTICLE CONTAINER */
 .article-container {
     margin: 50px auto 0 auto;
-    width: 800px;
+    max-width: 800px;
 }
 .article {
-    width: 600px;
+    max-width: 600px;
     color: white;
     margin-bottom: 50px;
     font-family: 'Inter', sans-serif;
@@ -102,13 +102,12 @@ body {
   .image-container {
     margin: 125px auto 0 auto;
     position:relative;
-    width: 850px;
-    height: 400px;
+    max-width: 850px;
     border: 2px solid white;
   }
   .image {
     margin: auto;
-    width: auto;
+    max-width: 100%;
     max-height: 400px;
   }
   /* BUTTONS */
@@ -180,13 +179,13 @@ span a:hover {
     height: auto;
 }
 #castle {
+    opacity: .8;
     position: absolute;
-    width: 350px;
+    width: 400px;
     height: auto;
     float: right;
-    right: -15px;
-    top: 30px;
-    mix-blend-mode: darken;
+    right: 15px;
+    top: -10px;
 }
 #myNav {display:none;}
 
@@ -221,6 +220,26 @@ span a:hover {
     }
     .disc-container p {
         display: none;
+    }
+    .article-container {
+        margin: 50px auto 0 auto;
+        max-width: 800px;
+    }
+    .article {
+        margin: 0 10px 50px 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight:400;
+        font-size: 13px;
+        letter-spacing: 0.06em;
+    }
+    .article > h1 {
+        font-weight: bold;
+        font-size: 13px;
+        text-decoration:underline;
+        letter-spacing: 0.06em;
+    }
+    .image-container {
+        margin: 50px;
     }
     .cover {
         padding-top: 0;
@@ -276,4 +295,5 @@ span a:hover {
         margin: 36px 8.8% 0 10px;
         font-size: 30px;
     }
+
 }
