@@ -2,14 +2,15 @@
 .nav {
   list-style-type: none;
   margin: 25px auto 0 -50px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.06em;
 }
 #logo {
-  font-family: 'Kalam', cursive;
-  font-size: 70px;
-  font-weight: bold;
+  margin: 0 0 10px 0px;
+  height: auto;
+  width: 300px;
   padding: 0;
 }
 #logo a {
@@ -28,9 +29,9 @@
 @media screen and (max-width: 700px) {
   .nav li {display: none;}
   #logo {
-    display: inline;
-    font-size: 50px;
-    margin-left: 20px;
+    margin-left: 8%;
+    height: auto;
+    width: 150px;
   }
   #hamburger {
     display:inline;

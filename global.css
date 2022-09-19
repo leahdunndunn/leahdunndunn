@@ -24,14 +24,14 @@ body {
     max-width: 600px;
     color: white;
     margin-bottom: 50px;
-    font-family: 'Inter', sans-serif;
-    font-weight:400;
-    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+    font-weight:500;
+    font-size: 16px;
     letter-spacing: 0.06em;
 }
 .article > h1 {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration:underline;
     letter-spacing: 0.06em;
 }
@@ -49,19 +49,20 @@ body {
 .disc-container h1 {
     margin-left: 15px;
     color: rgb(255, 255, 255);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.06em;
 }
 .disc-container p {
     margin-left: 15px;
     color: rgb(255, 255, 255);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-weight:400;
-    font-size: 15px;
+    font-size: 16px;
     text-align: justify;
+    line-height: 1.2em;
     letter-spacing: 0.06em;
 }
 /* INFO CONTAINER */
@@ -141,9 +142,9 @@ body {
     border: 2px solid #FFFFFF;
     background: none;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-weight:400;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     letter-spacing: 0.06em;
 }
@@ -151,9 +152,9 @@ body {
 /* FOOTER */
 span {
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-weight:400;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 0.06em;
     float: right;
     text-align: right;
@@ -184,7 +185,7 @@ span a:hover {
     width: 400px;
     height: auto;
     float: right;
-    right: 15px;
+    right: 1px;
     top: -10px;
 }
 #myNav {display:none;}
@@ -214,7 +215,7 @@ span a:hover {
     .disc-container h1 {
         margin: 10px auto 0 auto;
         color: rgb(255, 255, 255);
-        font-family: 'Inter', sans-serif;
+        font-family: 'Mukta', sans-serif;
         text-align: center;
         font-size: 14px;
     }
@@ -227,8 +228,8 @@ span a:hover {
     }
     .article {
         margin: 0 10px 50px 10px;
-        font-family: 'Inter', sans-serif;
-        font-weight:400;
+        font-family: 'Mukta', sans-serif;
+        font-weight:500;
         font-size: 13px;
         letter-spacing: 0.06em;
     }
@@ -279,8 +280,8 @@ span a:hover {
     }
     .overlay a {
         text-decoration: none;
-        font-size: 15px;
-        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-family: 'Mukta', sans-serif;
         letter-spacing: 0.06em;
         padding-top: 3%;
         color: black;
@@ -295,5 +296,14 @@ span a:hover {
         margin: 36px 8.8% 0 10px;
         font-size: 30px;
     }
-
+    span {
+        letter-spacing: 0.03em;
+        font-size: 16px;
+    }
 }
+    @media screen and (max-width: 390px) {
+        span {
+            letter-spacing: 0;
+            font-size: 13px;
+        }
+    }
