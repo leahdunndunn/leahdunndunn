@@ -8,16 +8,16 @@
   letter-spacing: 0.06em;
 }
 #logo {
-  margin: 0 0 10px 0px;
+  margin: 0 0 10px 7px;
   height: auto;
-  width: 300px;
+  width: 310px;
   padding: 0;
 }
 #logo a {
   text-decoration-line: none;
 }
 .nav li a {
-  padding: 13px;
+  padding: 11px;
   color: white;
 }
 .nav li {
