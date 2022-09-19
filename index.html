@@ -19,49 +19,51 @@
             <!-- Links -->
             <br>
             <li><a href="info">info</a></li>
-            <li><a href="https://www.youtube.com/c/LeahDunn/featured">videos</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/LeahDunn/featured">videos</a></li>
             <li><a href="press">press</a></li>
             <li><a href="discography">discography</a></li>
+            <li id="hamburger" onclick="openNav()">&#9776;</li>
         </ul>
-        <span id="hamburger" onclick="openNav()">&#9776;</span>
+        <img id="castle" src="images/castle6.GIF">
+        <!-- Needs an image? -->
+        <!-- MOBILE NAV -->
         <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
-                <a href="https://www.owencaldwell.art/vamp">Vampires&nbsp;of&nbsp;New&nbsp;York</a>
-                <a href="https://www.owencaldwell.art/Summer2021">Summer&nbsp;2021</a>
-                <a href="https://www.owencaldwell.art/Spring2021">Spring&nbsp;2021</a>
-                <a href="https://www.owencaldwell.art/The-Brandywine-Valley">Brandywine&nbsp;Valley</a>
-                <a href="https://www.owencaldwell.art/COVID-Summer">COVID&nbsp;Summer</a>
-                <a href="https://www.owencaldwell.art/Peru">Peru</a>
-                <a href="https://www.owencaldwell.art/Baynard">Baynard</a>
-                <a href="https://www.owencaldwell.art/Fairfax">Fairfax</a>
-                <a href="https://www.owencaldwell.art/The-Farm">The&nbsp;Farm</a>
-                <a style="padding-top: 5%;" href="https://www.owencaldwell.art/Info">Contact</a>
+                <a href="info">info</a>
+                <a href="https://www.youtube.com/c/LeahDunn/featured">videos</a>
+                <a href="press">press</a>
+                <a href="discography">discography</a>
             </div>
-        <img id="castle" src="images/castle.png">
-        <!-- <img id="suit" src="images/suit2.png"> -->
+        </div>
+            <script>
+                function openNav() {
+                  document.getElementById("myNav").style.height = "100%";
+                }
+                
+                function closeNav() {
+                  document.getElementById("myNav").style.height = "0%";
+                }
+            </script>
         <!--LINK TREE -->
         <div class="linktree">
-            <li><a href="https://open.spotify.com/artist/1zrefLbUbnYR1GAVrUNkRQ?si=ZJ0TU9MGTMWxHte74DsI8A" target="_blank"><img src="images/social/spotify.svg" height="22.5" width="28.5"/></a></li>
-            <li><a href="https://www.youtube.com/c/LeahDunn" target="_blank"><img src="images/social/youtube.svg" height="22.5" width="28.5"/></a></li>
-            <li><a href="https://leahdunn.bandcamp.com" target="_blank"><img src="images/social/bandcamp.svg" height="22.5" width="28.5"/></a></li>
-            <li><a href="https://www.instagram.com/leahdunndunn/?hl=en" target="_blank"><img src="images/social/instagram.svg" height="22.5" width="28.5"/></a></li>
+            <li><a href="https://www.instagram.com/leahdunndunn/?hl=en" target="_blank"><img src="images/social/instagram.svg"/></a></li>
+            <li><a href="https://open.spotify.com/artist/1zrefLbUbnYR1GAVrUNkRQ?si=ZJ0TU9MGTMWxHte74DsI8A" target="_blank"><img src="images/social/spotify.svg"/></a></li>
+            <!-- <li><a href="https://www.youtube.com/c/LeahDunn" target="_blank"><img src="images/social/youtube.svg"/></a></li> -->
+            <li><a href="https://leahdunn.bandcamp.com" target="_blank"><img src="images/social/bandcamp.svg"/></a></li>
         </div>
-        <div class="disc-container">
-            <img class="cover" src="images/cover/attention.jpg">
-            <div style="padding-left: 20px;" class="text-box">
-                <h1 style="text-align: left;">The Calender Collection (2022)</h1>
-                <p style="line-height:21px">
-                    01 Low Resolution<br>
-                    02 Mean It<br>
-                    03 Wrong Place<br>
-                    04 Heresy<br>
-                    05 Flip<br>
-                    06 Afterglow<br>
-                    07 Attention<br>
+        <div class="info-container" style="margin-bottom: 20px;">
+            <img id="infoimage" style="margin-top: -50px" width=334 src="images/sunshine.jpg">
+            <div style="line-height: 23px;" class="text-box">
+                <p>Leah Dunn is an indie rock singer-songwriter from Belmont, California. Across 2022 Dunn will release a new body of work, The Calendar Collection, one song a month, full of sharp wit, introspective wanderings, and vulnerability. An alumna of Interlochen Arts Academy, Dunn is set to graduate in '25 from New York University where she is currently in the Clive Davis Institute of Recorded Music. Dunn released her debut EP 'Oakland' in 2019, followed by her first record 'Wetsuit' in 2020. The title track off the albums garnered two Spotify editorial playlist placements -- 'Fresh Finds' and 'Fresh Finds Rock.' She draws from the influences of Courtney Barnett, Phoebe Bridgers, Joni Mitchell, Sonic Youth, and Sharon Van Etten.<br>
+                <br>
+                <br>
+                <br>
+                <span>
+                    made with <a href="https://www.owencaldwell.art">&#9829</a>, <br>art by <a>@sabina</a>
+                </span>
                 </p>
-            </div>
-        <button class="listen-button">Listen</button>
+        </div>
         </div>
     </body>
 </html>
