@@ -23,20 +23,27 @@
 .nav li {
   display: inline;
 }
-#hamburger {
-  visibility: hidden;
-}
+#hamburger {visibility: hidden;}
+#cmobile {display: none;}
 @media screen and (max-width: 700px) {
   .nav li {display: none;}
   #logo {
-    margin-left: 8%;
+    position: absolute;
+    margin: 0 0 10px 8%;
     height: auto;
-    width: 150px;
+    width: 175px;
+  }
+  #cmobile {
+    display: block;
+    margin: -25px 0 10px 8%;
+    position: absolute;
+    height: auto;
+    width: 175px;
   }
   #hamburger {
     display:inline;
     float: right;
-    margin: -60px 7.5% 0 10px;
+    margin: -35px 7.5% 0 10px;
     visibility: visible;
     color: white;
     font-size: 32px;

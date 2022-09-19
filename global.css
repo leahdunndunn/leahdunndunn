@@ -293,7 +293,7 @@ span a:hover {
     
     .overlay .closebtn {
         float: right;
-        margin: 36px 8.8% 0 10px;
+        margin: 0 8.8% 0 10px;
         font-size: 30px;
     }
     span {
