@@ -249,8 +249,13 @@ span a:hover {
         display: block;
         margin: 25px auto 0 auto;
     }
-    #infoimage {
+    #infoimage1 {
         display: block;
+        margin: 100px auto 0 auto;
+        width: 60%;
+    }
+    #infoimage2 {
+        display: none;
         margin: 100px auto 0 auto;
         width: 60%;
     }
