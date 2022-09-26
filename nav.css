@@ -33,13 +33,6 @@
     height: auto;
     width: 175px;
   }
-  #cmobile {
-    display: block;
-    margin: -25px 0 10px 8%;
-    position: absolute;
-    height: auto;
-    width: 175px;
-  }
   #hamburger {
     display:inline;
     float: right;

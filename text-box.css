@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 390px) {
     .text-box p {
-        font-size: 13px;
+        font-size: 16px;
         letter-spacing: 0;
         margin: -190px auto 120px auto;
     }

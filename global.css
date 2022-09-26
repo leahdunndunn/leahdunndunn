@@ -217,7 +217,6 @@ span a:hover {
         color: rgb(255, 255, 255);
         font-family: 'Mukta', sans-serif;
         text-align: center;
-        font-size: 14px;
     }
     .disc-container p {
         display: none;
@@ -230,12 +229,10 @@ span a:hover {
         margin: 0 10px 50px 10px;
         font-family: 'Mukta', sans-serif;
         font-weight:500;
-        font-size: 13px;
         letter-spacing: 0.06em;
     }
     .article > h1 {
         font-weight: bold;
-        font-size: 13px;
         text-decoration:underline;
         letter-spacing: 0.06em;
     }
@@ -304,6 +301,5 @@ span a:hover {
     @media screen and (max-width: 390px) {
         span {
             letter-spacing: 0;
-            font-size: 13px;
         }
     }
