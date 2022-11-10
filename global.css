@@ -206,15 +206,17 @@ span a:hover {
     #castle {display:none;}
     #myNav {display:block;}
     #button-left {
-        height: 550px;
+        height: 470px;
         width: 150px;
         top: 0;
+        left: -50px;
         opacity: 0;
     }
     #button-right {
-        height: 550px;
+        height: 470px;
         width: 150px;
         top: 0;
+        right: -50px;
         opacity: 0;
     }
     .info-container {
