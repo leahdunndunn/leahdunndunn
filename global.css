@@ -150,6 +150,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
+.listen-button:hover {cursor: pointer;}
 #hamburger {visibility: hidden; font-size:0; padding-top:0;}
 /* FOOTER */
 span {
@@ -264,6 +265,10 @@ span a:hover {
     .listen-button {
         display: block;
         margin: 25px auto 0 auto;
+    }
+    .listen-button a {
+        color: white;
+        text-decoration: none;
     }
     #infoimage1 {
         display: block;
