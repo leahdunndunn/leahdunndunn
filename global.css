@@ -104,13 +104,12 @@ body {
   .image-container {
     margin: 125px auto 0 auto;
     position:relative;
-    max-width: 850px;
-    border: 2px solid white;
+    width: auto;
   }
   .image {
     margin: auto;
     max-width: 100%;
-    max-height: 400px;
+    max-height: 550px;
   }
   /* BUTTONS */
 #button-left {
