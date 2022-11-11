@@ -24,7 +24,7 @@ body {
     max-width: 600px;
     color: white;
     margin-bottom: 50px;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-weight:500;
     font-size: 16px;
     letter-spacing: 0.06em;
@@ -49,7 +49,7 @@ body {
 .disc-container h1 {
     margin-left: 15px;
     color: rgb(255, 255, 255);
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     text-align: left;
     font-size: 16px;
     font-weight: bold;
@@ -58,7 +58,7 @@ body {
 .disc-container p {
     margin-left: 15px;
     color: rgb(255, 255, 255);
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-weight:400;
     font-size: 16px;
     text-align: justify;
@@ -144,7 +144,7 @@ body {
     border: 2px solid #FFFFFF;
     background: none;
     color: white;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-weight:400;
     font-size: 16px;
     text-align: center;
@@ -155,7 +155,7 @@ body {
 /* FOOTER */
 span {
     color: white;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-weight:400;
     font-size: 16px;
     letter-spacing: 0.06em;
@@ -232,7 +232,7 @@ span a:hover {
     .disc-container h1 {
         margin: 10px auto 0 auto;
         color: rgb(255, 255, 255);
-        font-family: 'Mukta', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
         text-align: center;
     }
     .disc-container p {
@@ -244,7 +244,7 @@ span a:hover {
     }
     .article {
         margin: 0 10px 50px 10px;
-        font-family: 'Mukta', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
         font-weight:500;
         letter-spacing: 0.06em;
     }
@@ -304,7 +304,7 @@ span a:hover {
     .overlay a {
         text-decoration: none;
         font-size: 16px;
-        font-family: 'Mukta', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
         letter-spacing: 0.06em;
         padding-top: 3%;
         color: black;
