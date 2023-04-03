@@ -121,6 +121,9 @@ body {
     height: 22.5px;
     width: 28.5px;
 }
+.linktree img:hover {
+    cursor: grab;
+}
 /* VIDEO GALLERY */
 .video-container {
     margin: 150px 0 100px 0;
