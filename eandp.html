@@ -22,27 +22,30 @@
             right: 23px;
         }
         #rightcolumn p {
-            color: rgb(255, 255, 255);
-            font-family: 'Signika Negative', sans-serif;
-            width: 100%;
-            letter-spacing: 0.06em;
-            font-weight: 400;
-            font-size: 16px;
-            text-align: left;
-            background-color: rgba(0, 0, 0, 0.075);
+            margin: 0 0 10px 0;
         }
         #rightcolumn p a {
             color: white;
         }
-        .services-list {
-            margin-left: 20px;
+
+        .services-block {
+            background-color: rgba(0, 0, 0, 0.075);
+            padding: 10px 15px;
             color: rgb(255, 255, 255);
             font-family: 'Signika Negative', sans-serif;
-            letter-spacing: 0.06em;
             font-weight: 400;
             font-size: 16px;
-            background-color: rgba(0, 0, 0, 0.075);
+            letter-spacing: 0.06em;
         }
+
+        .services-block p {
+            text-align: left;
+        }
+
+        .services-list {
+            margin-left: 20px;
+        }
+
         #cont2 {
             margin: -100px auto 0 0;
             display: grid;
@@ -111,16 +114,17 @@
             <img>
             <br><br><br><br>
 
-            <p>Services:</p>
-            <div class="services-list">
-                Pre-Production<br>
-                Production<br>
-                Tracking Engineering<br>
-                Mixing<br>
-                Mastering
+            <div class="services-block">
+                <p>Services:</p>
+                <div class="services-list">
+                    Pre-Production<br>
+                    Production<br>
+                    Tracking Engineering<br>
+                    Mixing<br>
+                    Mastering
+                </div>
+                <p>Inquire for rates and availability.</p>
             </div>
-
-            <p>Inquire for rates and availability.</p>
         </div>
     </div>
 </body>
