@@ -1,114 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- CSS -->
-        <link href="global.css" rel="stylesheet">
-        <link href="nav.css" rel="stylesheet">
-        <link href="text-box.css" rel="stylesheet">
-        <style>
-            .text-box {
-                width: 90%;
-                padding: 0;
-            }
-            .text-box p {
-                width: 60%;
+<head>
+    <!-- CSS -->
+    <link href="global.css" rel="stylesheet">
+    <link href="nav.css" rel="stylesheet">
+    <link href="text-box.css" rel="stylesheet">
+    <style>
+        .text-box {
+            width: 90%;
+            padding: 0;
+        }
+        .text-box p {
+            width: 60%;
+        }
+        #rightcolumn {
+            position: absolute;
+            margin-top: 73px;
+            width: 30%;
+            height: auto;
+            float: right;
+            right: 23px;
+        }
+        #rightcolumn p {
+            color: rgb(255, 255, 255);
+            font-family: 'Signika Negative', sans-serif;
+            width: 100%;
+            letter-spacing: 0.06em;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: left;
+            background-color: rgba(0, 0, 0, 0.075);
+        }
+        #rightcolumn p a {
+            color: white;
+        }
+        .services-list {
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-family: 'Signika Negative', sans-serif;
+            letter-spacing: 0.06em;
+            font-weight: 400;
+            font-size: 16px;
+            background-color: rgba(0, 0, 0, 0.075);
+        }
+        #cont2 {
+            margin: -100px auto 0 0;
+            display: grid;
+            position: relative;
+            justify-content: left;
+            grid-template-columns: 0px 620px;
+        }
+    </style>
+    <!--Mobile Setting-->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- TYPOGRAPHY (Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kalam:wght@700&family=Mukta:wght@400;500;700&family=Signika+Negative&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul class="nav">
+        <!-- LOGO -->
+        <li style="display: inline;"><a href="index"><img id="logo" src="images/logo.png"></a></li>
+        <!-- Links -->
+        <br>
+        <li><a href="mailto:Leah@leahdunndunn.com">contact</a></li>
+        <li><a href="eandp">production and engineering</a></li>
+        <li><a href="discography">music</a></li>
+        <li id="hamburger" onclick="openNav()">&#9776;</li>
+    </ul>
 
-            }
-            #rightcolumn {
-                position: absolute;
-                margin-top: 73px;
-                width: 30%;
-                height: auto;
-                float: right;
-                right: 23px;
-            }
-            #rightcolumn p {
-                color: rgb(255, 255, 255);
-                font-family: 'Signika Negative', sans-serif;
-                width: 100%;
-                letter-spacing: 0.06em;
-                font-weight:400;
-                font-size: 16px;
-                text-align: right;
-                letter-spacing: 0.06em;
-                background-color: rgba(0, 0, 0, 0.075)
-            }
-            #rightcolumn p a {
-                color: white;
-            }
-            #cont2 {
-                margin: -100px auto 0 0;
-                display: grid;
-                position: relative;
-                justify-content: left;
-                grid-template-columns: 0px 620px;
-            }
-        </style>
-        <!--Mobile Setting-->
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <!-- TYPOGRAPHY (Google Fonts) -->
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kalam:wght@700&family=Mukta:wght@400;500;700&family=Signika+Negative&display=swap" rel="stylesheet">    </head>
-    <body>
-        <ul class="nav">
-            <!-- LOGO -->
-            <li style="display: inline;"><a href="index"><img id="logo" src="images/logo.png"></a></img></li>
-            <!-- Links -->
-            <br>
-            <li><a href="mailto:Leah@leahdunndunn.com">contact</a></li>
-            <li><a href="eandp">production and engineering</a></li>
-            <li><a href="discography">music</a></li>
-            <li id="hamburger" onclick="openNav()">&#9776;</li>
-        </ul>
-        <img id="castle" src="images/castle6.GIF">
-        <!-- Needs an image? -->
-        <!-- MOBILE NAV -->
-        <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-                <a href="mailto:Leah@leahdunndunn.com">contact</a>
-                <a href="eandp">production and engineering</a>
-                <a href="discography">music</a>
-            </div>
+    <img id="castle" src="images/castle6.GIF">
+
+    <!-- MOBILE NAV -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="mailto:Leah@leahdunndunn.com">contact</a>
+            <a href="eandp">production and engineering</a>
+            <a href="discography">music</a>
         </div>
-            <script>
-                function openNav() {
-                  document.getElementById("myNav").style.height = "100%";
-                }
-                
-                function closeNav() {
-                  document.getElementById("myNav").style.height = "0%";
-                }
-            </script>
-        <!--LINK TREE -->
-        <div class="info-container">
-            <img id="infoimage1" width=334 src="images/eandpcover2025.jpg">
-            <div style="line-height: 23px;" class="text-box">
-                <p> With a background in songwriting and performance, I understand the deep trust it takes to put your music in someone else’s hands. 
+    </div>
 
-As both a producer and an engineer, I see it as a real privilege to help artists shape their sound and bring their vision to life.
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
 
-I love the technical side of the craft, from creative problem-solving to exploring new sounds, and I am always finding new ways to meet the music where it’s at. 
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
 
-For me, production and engineering are just as much about the people I’m working with as the sounds we’re creating.</p>
+    <!--LINK TREE -->
+    <div class="info-container">
+        <img id="infoimage1" width="334" src="images/eandpcover2025.jpg">
+        <div style="line-height: 23px;" class="text-box">
+            <p>
+                With a background in songwriting and performance, I understand the deep trust it takes to put your music in someone else’s hands.
+
+                As both a producer and an engineer, I see it as a real privilege to help artists shape their sound and bring their vision to life.
+
+                I love the technical side of the craft, from creative problem-solving to exploring new sounds, and I am always finding new ways to meet the music where it’s at.
+
+                For me, production and engineering are just as much about the people I’m working with as the sounds we’re creating.
+            </p>
         </div>
+
         <div id="rightcolumn">
-    <img>
-    <br><br><br><br>
+            <img>
+            <br><br><br><br>
 
-    <p>
-        Services:<br>
-        <span class="services-list">
-            Pre-Production<br>
-            Production<br>
-            Tracking Engineering<br>
-            Mixing<br>
-            Mastering
-        </span>
-    </p>
-    
-    <p>Inquire for rates and availability.</p>
-</div>
-    </div>    </body>
+            <p>Services:</p>
+            <div class="services-list">
+                Pre-Production<br>
+                Production<br>
+                Tracking Engineering<br>
+                Mixing<br>
+                Mastering
+            </div>
+
+            <p>Inquire for rates and availability.</p>
+        </div>
+    </div>
+</body>
 </html>
